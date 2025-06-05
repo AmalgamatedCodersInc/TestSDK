@@ -1,0 +1,93 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TestSDK",
+    "printedName": "TestSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKObject",
+        "printedName": "SDKObject",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKObject",
+                "printedName": "TestSDK.SDKObject",
+                "usr": "s:7TestSDK9SDKObjectC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TestSDK9SDKObjectCACycfc",
+            "mangledName": "$s7TestSDK9SDKObjectCACycfc",
+            "moduleName": "TestSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "test",
+            "printedName": "test()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TestSDK9SDKObjectC4testSSyF",
+            "mangledName": "$s7TestSDK9SDKObjectC4testSSyF",
+            "moduleName": "TestSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7TestSDK9SDKObjectC",
+        "mangledName": "$s7TestSDK9SDKObjectC",
+        "moduleName": "TestSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
