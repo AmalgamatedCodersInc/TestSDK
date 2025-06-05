@@ -1,6 +1,5 @@
-# RingoAI_SDK
+# TestSDK
 
-### Build 2025.05.02
+### Build 2025.06.05
 
 * backwards / forwards Xcode compatability
-* bug fixes
